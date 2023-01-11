@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOh304Rse6njeJimKAx6HcJ7V-ZPGEKyzIg&usqp=CAU" 
+            src="{{ photoCover }}" 
             alt="" 
             height="200px"
             srcset="">
@@ -10,16 +10,14 @@
 
     <a href="">
         <div class="big-card__title">
-            <h1>Astronomia Inteligente</h1>
+            <h1><a href="#">{{ cardTitle }}</a></h1>
         </div>
         <div class="big-card__description">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nullam congue velit tortor, quis maximus ipsum blandit at. 
-                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Sed lobortis iaculis sollicitudin. Donec mauris nulla, fermentum id neque a, venenatis dignissim tellus.
-                Nam eget pretium purus. Ut imperdiet ipsum tortor, vulputate lobortis purus vulputate sit amet.
-                Nunc nulla ligula, porttitor ac pretium quis, vestibulum venenatis nisl. Morbi sit amet ex ac libero malesuada tincidunt. 
+                <a href="#">
+                    {{ cardDescription }}
+                </a>
+                
             </p>
         </div>  
     </a>
